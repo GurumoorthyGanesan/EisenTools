@@ -51,6 +51,12 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ToolStripComboBoxDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ToolStripContainerDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Window.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Research\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
